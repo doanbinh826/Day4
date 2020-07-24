@@ -1,0 +1,269 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header p{
+    border:solid 1px black;
+    width: 60%;
+    height: 100px;
+    background-color: darkgray;
+    text-align:center;
+    line-height: 100px;
+    display: inline-block;
+    position: absolute;
+    margin:20px 10% 20px 10%;
+}
+
+ul.menu1 {
+    background-color:indigo ;
+    width: 100%;
+    height: 50px;
+    
+}
+ul.menu1  > li{
+    list-style: none;
+    display: inline-block;    
+    
+}
+ul.menu1  >li >a{
+    text-decoration: none;
+    color: ivory;
+    margin: 0px 20px 0px 20px;
+    line-height: 50px;
+    display: block;
+}
+
+ul.menu1  >li >a:hover{
+    background-color:red;
+    transition: 0.5s;
+    display:block;
+}
+
+/*       ul.menu2{
+
+    background-color:red ;
+    width: 100%;
+    height: 50px;
+    
+}
+ul.menu2 > li{
+    list-style:none;
+}
+ul.menu2 > li > a{
+    text-decoration: none;
+    display: block;
+}
+
+ul.menu1  >li:hover ul.menu2{
+    display: block;
+}
+*/
+
+.body-left{
+    margin-left:5%;
+    width: 60%;
+    float: left;
+}
+
+.list1{
+    width:30%;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+.list1 a{
+    text-decoration: none;
+}
+.list1 > a:hover{
+    text-decoration:underline;
+}
+
+.body3{
+    font-size:20px;
+    
+}
+.list2{
+    margin: 30px 0px 30px 0px;
+    border-bottom: solid 1px darkgrey;
+    
+}
+.list2 > a{
+    line-height: 80px;
+    float: none;
+}
+.list2-text{
+    float: right;
+    width: 70%;
+    height: auto;
+    display: block;
+    
+}
+.list2-text > a{
+    text-decoration: none;
+    display: block;
+    margin-left: 15px;
+}
+.list2-text > a:hover{
+    text-decoration:underline;
+}
+.list2-text > p{
+    display: block;
+    margin-left: 15px;
+}
+
+.quatrang > a{
+    margin: 10px;
+    text-decoration:none;
+
+}
+.quatrang{
+    margin:0px 30% 0px 30%; 
+}
+.quatrang > a:hover{
+    text-decoration:underline;
+}
+.chantrang{
+    background-color: royalblue;
+    width: 100%;
+    height: 300px;
+    position: relative;  
+    overflow: hidden;
+    top:30px;
+}
+.vetoi{
+    position: absolute;
+    width: 25%;
+    margin: 5%;
+    
+    
+}
+.vetoi > a{
+    text-decoration: none;
+}
+.chuyenmuc{
+    position: absolute;
+    width: 25%;
+    margin: 5%;
+    left: 30%;
+    
+}
+.chuyenmuc > ul >a{
+    text-decoration: none;
+    color: black;
+}
+.lienhe{
+    position: absolute;
+    width: 25%;
+    margin: 5%;
+    left: 60%;
+}
+.body-right{
+    float: left;
+    width: 25%;
+    margin-left:50px ;
+}
+.chuyenmuc-right{
+    border: solid 1px black;
+    width: 100%;
+    height: auto;
+
+}
+.chuyenmuc-right > span{
+    
+
+    background-color: royalblue;
+    width: 23.3%;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    
+    
+}
+.chuyenmuc-right > ul{
+    padding-top: 30px;
+    line-height: 2;
+}
+.chuyenmuc-right > ul >a{
+    text-decoration: none;
+}
+.chuyenmuc-right > ul > a:hover{
+    text-decoration: underline;
+}
+.baivietmoi{
+    margin-top: 50px;
+    
+}
+.baivietmoi > span{
+    background-color: royalblue;
+    position: absolute;
+    width: 23.3%;
+    padding: 10px;
+    
+}
+.list-right-1{
+    padding-top: 50px;
+    
+}
+.list-right-1 > a{
+    text-decoration: none;
+    float: left;
+    
+}
+.list-right-1 > a >p:hover{
+    text-decoration:underline;
+}
+.list-right-1 > a> img{
+    border-bottom: solid 1px darkgray;
+}
+.text{
+    float: right;
+    width: 200px;
+    margin: -6px 0px 0px 15px;
+    
+}
+.quangcao{
+    background-color: royalblue;
+    width: 23.3%;
+    position: absolute;
+}
+.baivietxemnhieu{
+    position: relative;
+}
+.baivietxemnhieu > ul{
+    margin-top: 100px;
+    position: absolute;
+}
+.baivietxemnhieu > span{
+    background-color: royalblue;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    margin: 50px 0px 0px -100px;
+}
+.baivietxemnhieu > ul >li > a{
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    
+}
+.baivietxemnhieu > ul >li > a:hover{
+    text-decoration: underline;
+    
+}
+.baivietxemnhieu > ul >li{
+    margin: 25px 10px 25px 10px;
+    list-style: none;
+    margin-top: 20px;
+}
+.baivietxemnhieu > ul >li > span{
+    width:40px ;
+    height:40px ;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    float:left;
+    color: white;
+}
+.line{
+    border: solid 1px darkgrey;
+}
